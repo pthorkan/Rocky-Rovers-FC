@@ -170,3 +170,19 @@ h1, h2 {
     margin: 50px;
     font-size: 200%;
 }
+
+/* volunteers */
+#volunteers {
+    height=400px;
+    width: 100%;
+    padding: 25px;
+    clear: both;
+    column-count: 3;
+    column-gap: 5px;
+    float: left;
+}
+
+#volunteers img {
+    height: 400px;
+    width: 400px;
+}
