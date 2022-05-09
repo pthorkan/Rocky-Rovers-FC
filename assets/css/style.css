@@ -23,7 +23,9 @@ h1, h2 {
 }
 
 #team_name {
+    height: 75px;
     margin-top: 25px;
+    margin-left: 25px;
     float: left;
     size: 200%;
 }
@@ -35,10 +37,6 @@ h1, h2 {
     font-size: 130%;
     letter-spacing: 2px;
     float: right;
-}
-
-#menu, #team_name {
-    line-height: 50px;
 }
 
 #menu li {
@@ -53,14 +51,113 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 5px solid red;
+    border-bottom: 2px solid #222525;
 }
 
 /* Main Image */
 
 #front_image {
     margin-top: 50px;
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url(../images/paul\ 2.jpg) no-repeat center center;
+}
+
+/* About our club section */
+
+#about-club {
+    height: 300px;
+}
+
+#about-club h1 {
+    color: #222525;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+#left {
+    float: left;
+    width: 40%;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.left {
+    float: left;
+    width: 40%;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+#right{
+    float: right;
+    width: 40%;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.right{
+    float: right;
+    width: 40%;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+#pitch {
+    height: 600px;
+}
+
+#pitch h1{
+    color: #222525;
+    padding-top: 25px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+/* Google maps*/
+
+.mapouter {
+    width: 97%;
+    position:absolute;
+    padding: 25px 25px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+}
+
+/* Footer */
+#social {
+    height: 200px;
+    text-align: center;
+}
+
+#social i {
+    color: #222525;
+}
+
+#social h2 {
+    color: #222525;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+#facebook {    
+    display: inline;
+    margin: 50px;
+    font-size: 200%;
+}
+
+#instagram { 
+    display: inline;
+    margin: 50px;
+    font-size: 200%;
+}
+
+#twitter { 
+    display: inline;
+    margin: 50px;
+    font-size: 200%;
 }
