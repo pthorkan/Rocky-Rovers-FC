@@ -70,6 +70,7 @@ h1, h2 {
     height: 500px;
     width: 100%;
     background: url(../images/paul\ 2.jpg) no-repeat center center;
+    border-radius: 20px;
 }
 
 /* About our club section */
@@ -171,18 +172,40 @@ h1, h2 {
     font-size: 200%;
 }
 
-/* volunteers */
+/* volunteers page */
 #volunteers {
-    height=400px;
+    height: 400px;
     width: 100%;
-    padding: 25px;
-    clear: both;
     column-count: 3;
-    column-gap: 5px;
-    float: left;
 }
 
 #volunteers img {
+    border-radius: 20px;
+}
+
+#help-us-text{
     height: 400px;
-    width: 400px;
+    padding-left: 25px;
+}
+
+#help-us-text h1{
+    padding-bottom: 25px;
+}
+
+/* Input fields */
+
+
+.form-volunteer {
+    border: solid 2px red;
+    border-radius: 5px;
+    padding:5px;
+}
+
+#submit-button {
+    border: solid 2px red;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    padding:5px;
+    font-weight: bold;
 }
