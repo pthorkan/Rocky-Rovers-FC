@@ -14,8 +14,9 @@ body {
 
 /* headings and logo */
 
-.header {
-    height: 150px;
+header {
+    height: 100px;
+    width: 100%;
 }
 
 h1, h2 {
@@ -26,22 +27,21 @@ h1, h2 {
     letter-spacing: 2px;
 }
 
-#team_name {
-    height: 75px;
-    margin-top: 25px;
-    margin-left: 25px;
+#team-name {
     float: left;
-    size: 200%;
+    font-size: 40px;
+    margin: 25px;
 }
 
 
 /* Menu Elements */
 
 #menu {
-    margin-top: 25px;
-    font-size: 130%;
+    padding: 7.5px 0;
+    font-size: 25px;
     letter-spacing: 2px;
     float: right;
+    margin: 25px;
 }
 
 #menu li {
@@ -66,9 +66,8 @@ h1, h2 {
 /* Main Image */
 
 #front_image {
-    margin-top: 50px;
-    height: 500px;
-    width: 100%;
+    margin: 0 25px;
+    height: 450px;
     background: url(../images/paul\ 2.jpg) no-repeat center center;
     border-radius: 20px;
 }
@@ -77,40 +76,37 @@ h1, h2 {
 
 #about-club {
     height: 300px;
+    margin: 20px;
 }
 
 #about-club h1 {
     color: #222525;
     padding-top: 25px;
     padding-left: 25px;
+    text-align: center;
 }
 
-#left {
-    float: left;
-    width: 40%;
+#about-club h1 {
+    color: #222525;
     padding-top: 25px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+#about-club div {
     padding-left: 25px;
 }
 
 .left {
     float: left;
     width: 40%;
-    padding-top: 25px;
-    padding-left: 25px;
+    padding: 25px 25px 0 0;
 }
 
-#right{
+.right {
     float: right;
     width: 40%;
-    padding-top: 25px;
-    padding-right: 25px;
-}
-
-.right{
-    float: right;
-    width: 40%;
-    padding-top: 25px;
-    padding-right: 25px;
+    padding: 25px 25px 0 0;
 }
 
 #pitch {
@@ -127,7 +123,7 @@ h1, h2 {
 /* Google maps*/
 
 .mapouter {
-    width: 97%;
+    width: 97vw;
     position:absolute;
     padding: 25px 25px;
 }
@@ -139,7 +135,7 @@ h1, h2 {
 
 /* Footer */
 #social {
-    height: 200px;
+    height: 150px;
     text-align: center;
 }
 
@@ -174,22 +170,33 @@ h1, h2 {
 
 /* volunteers page */
 #volunteers {
-    height: 400px;
-    width: 100%;
+    height: 300px;
+    width: calc(100% - 50px);
     column-count: 3;
+    column-gap: 25px;
+    margin: 0 25px;
+    
 }
 
 #volunteers img {
+    height: 280px;
     border-radius: 20px;
+    width: 100%;
+    overflow: hidden; 
 }
 
-#help-us-text{
+#help-us-text {
     height: 400px;
-    padding-left: 25px;
+    margin: 25px;
 }
 
 #help-us-text h1{
-    padding-bottom: 25px;
+    text-align: center;
+}
+
+#help-us-text p{
+    font-size: 1.25em;
+    
 }
 
 /* Input fields */
@@ -208,4 +215,33 @@ h1, h2 {
     background-color: red;
     padding:5px;
     font-weight: bold;
+}
+
+/* Membership */
+
+#top-block {
+    height: 400px;
+}
+
+#top-block-image {
+    text-align: center;  
+    display: inline-block;
+    width: 50%;
+}
+
+#top-block-image img {
+    border-radius: 10px;
+}
+
+#top-block-text {
+    display: inline-block;
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+#pay-membership {
+    padding-top: 25px;
+    padding-left: 25px;
+    float: right;
 }
