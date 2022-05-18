@@ -230,16 +230,15 @@ h1, h2 {
 
 
 .form-volunteer {
-    border: solid 2px red;
+    border: solid 2px black;
     border-radius: 5px;
     padding:5px;
 }
 
 #submit-button {
-    border: solid 2px red;
+    border: solid 2px black;
     border-radius: 5px;
     color: black;
-    background-color: red;
     padding:5px;
     font-weight: bold;
 }
