@@ -182,7 +182,34 @@ h1, h2 {
     height: 280px;
     border-radius: 20px;
     width: 100%;
-    overflow: hidden; 
+    overflow: hidden;
+}
+
+    #imageone {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+
+    #imagetwo {
+        animation: fadeInAnimation ease 10s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        }
+
+    #imagethree {
+        animation: fadeInAnimation ease 15s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+            }
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 #help-us-text {
