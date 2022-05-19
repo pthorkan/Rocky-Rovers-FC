@@ -10,6 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #222525,
+    
 }
 
 /* headings and logo */
@@ -87,26 +88,19 @@ h1, h2 {
     text-align: center;
 }
 
-#about-club h1 {
-    color: #222525;
-    padding-top: 25px;
-    padding-left: 25px;
-    text-align: center;
-}
-
 #about-club div {
     padding-left: 25px;
 }
 
 .left {
     float: left;
-    width: 40%;
+    width: 45%;
     padding: 25px 25px 0 0;
 }
 
 .right {
     float: right;
-    width: 40%;
+    width: 45%;
     padding: 25px 25px 0 0;
 }
 
@@ -139,6 +133,7 @@ h1, h2 {
 #social {
     height: 150px;
     text-align: center;
+    padding-top: 20px;
 }
 
 #social i {
@@ -278,31 +273,74 @@ input {
 
 /* Membership */
 
-#top-block {
+#membership-images {
     height: 400px;
+    margin: 0 25px;
 }
 
-#top-block-image {
-    text-align: center;  
-    display: inline-block;
+#membership-images img {
+    border-radius: 20px;
+    
+}
+
+#membership-images-left {
+    height: 400px;
     width: 50%;
-}
-
-#top-block-image img {
+    float: left;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-#top-block-text {
-    display: inline-block;
-    float: right;
+#membership-images-right {
+    height: 400px;
     width: 50%;
-    text-align: center;
-    padding-top: 50px;
+    float: right;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#membership {
+    margin: 25px;
+}
+
+#membership-cover {
     font-size: 1.25em;
 }
 
-#pay-membership {
-    padding-top: 25px;
-    padding-left: 25px;
-    float: right;
+#membership-cover h1 {
+    padding:25px 0 10px 25px;
+}
+
+#membership-cover li {
+    line-height: 35px;
+    text-indent: 50px;
+    padding-top: 10px
+}
+
+#memb-left {
+    width: calc(100% - 50px);
+    float: left;
+    height: 300px;
+    font-size: 1.25em;
+    padding: 25px 25px;
+}
+
+#memb-right {
+    width: 600px;
+    margin: 0 auto;
+    height: 250px;
+    padding: 50px 25px 25px 0px;
+}
+
+table {
+    width: 600px;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+th, td {
+    border: 2px solid #222525;
+    padding: 10px;
 }
