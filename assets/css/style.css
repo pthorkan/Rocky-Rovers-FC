@@ -76,7 +76,7 @@ h1, h2 {
 /* About our club section */
 
 #about-club {
-    height: 400px;
+    height: 350px;
     margin: 20px;
     font-size: 1.25em;
 }
@@ -84,7 +84,6 @@ h1, h2 {
 #about-club h1 {
     color: #222525;
     padding-top: 25px;
-    padding-left: 25px;
     text-align: center;
 }
 
@@ -112,7 +111,6 @@ h1, h2 {
 #pitch h1{
     color: #222525;
     padding-top: 25px;
-    padding-left: 25px;
     text-align: center;
 }
 
@@ -167,7 +165,7 @@ h1, h2 {
 
 /* volunteers page */
 #volunteers {
-    height: 300px;
+    height: 400px;
     width: calc(100% - 50px);
     column-count: 3;
     column-gap: 25px;
@@ -175,26 +173,26 @@ h1, h2 {
 }
 
 #volunteers img {
-    height: 280px;
+    height: 380px;
     border-radius: 20px;
     width: 100%;
     overflow: hidden;
 }
 
     #imageone {
-    animation: fadeInAnimation ease 5s;
+    animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     }
 
     #imagetwo {
-        animation: fadeInAnimation ease 10s;
+        animation: fadeInAnimation ease 7s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
         }
 
     #imagethree {
-        animation: fadeInAnimation ease 15s;
+        animation: fadeInAnimation ease 10s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
             }
@@ -271,25 +269,21 @@ input {
     margin-left: 75px;
 }
 
-/* Membership */
+/* Membership page*/
 
 #membership-images {
     height: 400px;
+    width: calc(100% - 50px);
+    column-count: 3;
+    column-gap: 50px;
     margin: 0 25px;
 }
 
 #membership-images img {
+    height: 380px;
     border-radius: 20px;
-    
-}
-
-#membership-images-left {
-    height: 400px;
-    width: 50%;
-    float: left;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    overflow: hidden;
 }
 
 #membership-images-right {
@@ -319,19 +313,18 @@ input {
     padding-top: 10px
 }
 
-#memb-left {
-    width: calc(100% - 50px);
-    float: left;
-    height: 300px;
+#memb-btm-p {
+    text-align: center;
+    height: 175px;
     font-size: 1.25em;
     padding: 25px 25px;
 }
 
-#memb-right {
+#memb-cost {
     width: 600px;
     margin: 0 auto;
-    height: 250px;
-    padding: 50px 25px 25px 0px;
+    height: 215px;
+    padding: 25px 0px;
 }
 
 table {
@@ -343,4 +336,28 @@ table {
 th, td {
     border: 2px solid #222525;
     padding: 10px;
+}
+
+#payment-links {
+    height: 100px;
+    text-align: center;
+    padding: 15px 0 25px 0;
+}
+
+#paypal {    
+    display: inline;
+    margin: 30px;
+    font-size: 400%;
+    color: rgba(6, 6, 242, 0.885);
+}
+
+#stripe {    
+    display: inline;
+    margin: 30px;
+    font-size: 400%;
+    color: rgba(76, 0, 255, 0.885);
+}
+
+#volunteer {
+
 }
