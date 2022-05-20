@@ -9,8 +9,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #222525,
-    
+    color: #222525;
 }
 
 /* headings and logo */
@@ -76,12 +75,12 @@ h1, h2 {
 /* About our club section */
 
 #about-club {
-    height: 350px;
-    margin: 20px;
+    height: 400px;
+    margin: 25px;
     font-size: 1.25em;
 }
 
-#about-club h1 {
+#about-club h2 {
     color: #222525;
     padding-top: 25px;
     text-align: center;
@@ -95,29 +94,31 @@ h1, h2 {
     float: left;
     width: 45%;
     padding: 25px 25px 0 0;
+    font-size: 1.1em;
 }
 
 .right {
     float: right;
     width: 45%;
     padding: 25px 25px 0 0;
+    font-size: 1.1em;
 }
 
 #pitch {
     height: 600px;
     font-size: 1.25em;
+    margin: 25px;
 }
 
-#pitch h1{
+#pitch h2 {
     color: #222525;
-    padding-top: 25px;
     text-align: center;
 }
 
 /* Google maps*/
 
 .mapouter {
-    width: 97vw;
+    width: calc(100% - 100px);
     position:absolute;
     padding: 25px 25px;
 }
@@ -127,11 +128,16 @@ h1, h2 {
     background:none!important;
 }
 
+.gmap_canvas iframe {
+    height: 500px;
+    width: 100%;
+}
+
 /* Footer */
 #social {
     height: 150px;
     text-align: center;
-    padding-top: 20px;
+    margin: 25px;
 }
 
 #social i {
@@ -140,9 +146,7 @@ h1, h2 {
 
 #social h2 {
     color: #222525;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-bottom: 25px;
+    padding: 25px;
 }
 
 #facebook {    
@@ -168,8 +172,8 @@ h1, h2 {
     height: 400px;
     width: calc(100% - 50px);
     column-count: 3;
-    column-gap: 25px;
-    margin: 0 25px;
+    column-gap: 50px;
+    margin: 0 25px 25px 25px;
 }
 
 #volunteers img {
@@ -192,7 +196,7 @@ h1, h2 {
         }
 
     #imagethree {
-        animation: fadeInAnimation ease 10s;
+        animation: fadeInAnimation ease 8s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
             }
@@ -204,6 +208,15 @@ h1, h2 {
     100% {
         opacity: 1;
     }
+}
+
+#we-need-you {
+    margin: 25px;
+    font-size: 1.25em;
+}
+
+#we-need-you h2 {
+    text-align: center;
 }
 
 #help-us-text {
@@ -232,12 +245,13 @@ h1, h2 {
 
 #leave-details p{
     font-size: 1.25em;
+    padding-left: 25px;
 }
 
 /* Input fields */
 
 form {
-    padding-left: 25px;
+    padding-left: 100px;
 }
 
 .form-volunteer {
@@ -264,9 +278,10 @@ input {
     color: black;
     padding:5px;
     font-weight: bold;
-    width: 150px;
-    margin-top: 30px;
-    margin-left: 75px;
+    font-size:large;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 /* Membership page*/
@@ -286,44 +301,31 @@ input {
     overflow: hidden;
 }
 
-#membership-images-right {
-    height: 400px;
-    width: 50%;
-    float: right;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-}
-
 #membership {
     margin: 25px;
+    font-size: 1.25em;
+    height: 875px;
 }
 
 #membership-cover {
     font-size: 1.25em;
 }
 
-#membership-cover h1 {
+#membership-cover h2 {
     padding:25px 0 10px 25px;
 }
 
 #membership-cover li {
+    list-style-position: inside;
     line-height: 35px;
-    text-indent: 50px;
+    text-indent: 200px;
     padding-top: 10px
-}
-
-#memb-btm-p {
-    text-align: center;
-    height: 175px;
-    font-size: 1.25em;
-    padding: 25px 25px;
 }
 
 #memb-cost {
     width: 600px;
     margin: 0 auto;
-    height: 215px;
+    height: 240px;
     padding: 25px 0px;
 }
 
@@ -338,26 +340,35 @@ th, td {
     padding: 10px;
 }
 
-#payment-links {
-    height: 100px;
+#memb-btm-p {
     text-align: center;
-    padding: 15px 0 25px 0;
+    height: 175px;
+    font-size: 1.25em;
+    padding: 25px 25px;
+}
+
+#payment-links {
+    height: 150px;
+    text-align: center;
+    padding: 15px 0 30px 0;
 }
 
 #paypal {    
     display: inline;
     margin: 30px;
-    font-size: 400%;
-    color: rgba(6, 6, 242, 0.885);
+    font-size: 450%;
+}
+
+#paypal i {
+    color: rgb(1, 29, 152);
 }
 
 #stripe {    
     display: inline;
     margin: 30px;
-    font-size: 400%;
-    color: rgba(76, 0, 255, 0.885);
+    font-size: 450%;
 }
 
-#volunteer {
-
+#stripe i {
+    color: rgba(76, 0, 255, 0.885);
 }
