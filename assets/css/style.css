@@ -179,8 +179,9 @@ h1, h2 {
 #volunteers img {
     height: 380px;
     border-radius: 20px;
-    width: 100%;
+    max-width: 100%;
     overflow: hidden;
+    object-fit: cover;
 }
 
     #imageone {
@@ -297,8 +298,9 @@ input {
 #membership-images img {
     height: 380px;
     border-radius: 20px;
-    width: 100%;
+    max-width: 100%;
     overflow: hidden;
+    object-fit: cover;
 }
 
 #membership {
@@ -371,4 +373,104 @@ th, td {
 
 #stripe i {
     color: rgba(76, 0, 255, 0.885);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1130px) {
+#about-club {
+    width: 96%;
+    height: 575px;
+}
+
+.left, .right {
+    width: 96%;
+    float: left;
+}
+
+#menu {
+    clear: left;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header {
+    height: 200px;
+}
+
+#volunteers {
+    column-count: revert;
+    width: 50%;
+    margin: 0 auto;
+    height: 1200px;
+}
+
+#submit-button {
+    margin-top: 30px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+form {
+    padding-left: 75px;
+}
+
+#membership-images {
+    column-count: revert;
+    width: 50%;
+    margin: 0 auto;
+    height: 1200px;
+}
+
+#membership-cover li {
+    text-indent: 50px;
+}
+
+#membership {
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+footer {
+    padding-top: 25px;
+}
+}
+
+
+@media screen and (max-width: 900px) {
+#about-club {
+     width: 96%;
+     height: 600px;
+}
+
+#leave-details {
+    display: block;
+    padding-top: 50px;
+    width: 96%;
+    text-align: center;
+}
+
+#help-us-text {
+    width: 96%
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+#membership {
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+footer {
+    padding-top: 25px;
+}
 }
