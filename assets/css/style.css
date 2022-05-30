@@ -9,7 +9,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #222525;
+    color: #000000;
+    background: linear-gradient(to left, hsl(340, 98%, 32%) 0%, #ffffff 100%);
 }
 
 /* headings and logo */
@@ -23,7 +24,7 @@ h1, h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     text-transform: uppercase;
-    color: #232323; 
+    color: #000000; 
     letter-spacing: 2px;
 }
 
@@ -83,6 +84,7 @@ h1, h2 {
 #about-club h2 {
     color: #222525;
     padding-top: 25px;
+    padding-right: 50px;
     text-align: center;
 }
 
@@ -113,6 +115,7 @@ h1, h2 {
 #pitch h2 {
     color: #222525;
     text-align: center;
+    padding-right: 50px;
 }
 
 /* Google maps*/
@@ -126,6 +129,7 @@ h1, h2 {
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
+    border-radius: 20px;
 }
 
 .gmap_canvas iframe {
@@ -218,6 +222,7 @@ h1, h2 {
 
 #we-need-you h2 {
     text-align: center;
+    padding-right: 50px;
 }
 
 #help-us-text {
@@ -305,7 +310,6 @@ input {
 
 #membership {
     margin: 25px;
-    font-size: 1.25em;
     height: 875px;
 }
 
@@ -442,8 +446,12 @@ footer {
 
 @media screen and (max-width: 900px) {
 #about-club {
-     width: 96%;
+     width: 90%;
      height: 600px;
+}
+
+#pitch {
+    line-height: 25px;
 }
 
 #leave-details {
@@ -473,4 +481,57 @@ form {
 footer {
     padding-top: 25px;
 }
+}
+
+@media screen and (max-width: 777px) {
+    #about-club {
+        width: 90%;
+        height: 700px;
+   }
+
+   table {
+    width: 400px;
+    margin: 0;
+   }
+}
+
+
+@media screen and (max-width: 480px) {
+    header {
+        height: 250px;
+    }
+
+    #about-club {
+        width: 90%;
+        height: 700px;
+    }
+
+    #facebook {
+        margin: 25px;
+    }
+
+    #twitter {
+        margin: 25px;
+    }
+
+    #instagram {
+        margin: 25px;
+    }
+
+    table {
+        width: 325px;
+        margin: 0;
+    }
+
+    #payment-links {
+        height: 250px;
+    }
+
+    #memb-btm-p p {
+        display: none;
+    }   
+
+    #paypal {
+        display: block;
+    }
 }
