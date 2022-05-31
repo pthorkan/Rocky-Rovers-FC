@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #000000;
-    background: linear-gradient(to left, hsl(340, 98%, 32%) 0%, #ffffff 100%);
+    background: linear-gradient(to left, hsl(340, 98%, 25%) 0%, #ffffff 100%);
 }
 
 /* headings and logo */
@@ -69,7 +69,7 @@ h1, h2 {
 #front_image {
     margin: 0 25px;
     height: 450px;
-    background: url(../images/paul\ 2.jpg) no-repeat center center;
+    background: url(../images/team\ linking\ webp.webp) no-repeat center center;
     border-radius: 20px;
 }
 
