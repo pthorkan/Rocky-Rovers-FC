@@ -12,7 +12,7 @@ The membership page lists the benefits of joining, gives membership prices and a
 ## Home Page
 * The top line header shows the team name to the left, and to the right there are 3 navigation links to different pages of the website. The link for the current page is underlined to help with navigation.
 
-![screenshot](https://pthorkan-rockyroversyou-2jqvol5fya0.ws-eu46.gitpod.io/)
+![screenshot](https://user-images.githubusercontent.com/100580056/171164477-5f307057-d813-4ef6-a834-3dec45c3b907.png)
 
 * The main image shows players lining up and linking shoulders in unity.
 
