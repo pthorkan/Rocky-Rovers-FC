@@ -1,12 +1,14 @@
 # Rocky Rovers FC club website
 
-This website aims to provide both parents and children alike, with all the information about Rocky Rovers football club. The website aims to encourage children of all levels and ability to join up, aswell as parents to volunteer and get invloved in the football community.
+This website aims to provide both parents and children alike, with all the information about Rocky Rovers Football Club. The website aims to encourage children of all levels and ability to join up, aswell as parents to get invloved and volunteer in the local football club community.
 
 The Home page details the various teams, coaching qualifications, training times and club inclusion policy. The location of the pitch is also included with an embedded google map location. Social media links are added in the footer to allow added interaction.
 
 The Volunteer page aims to get parents involved in the club and meet other parents/volunteers! There is a form to leave details, for a club member to get in touch with them.
 
 The membership page lists the benefits of joining, gives membership prices and also provide links to payment sites for quick payment.
+
+![image](https://user-images.githubusercontent.com/100580056/171235911-670a65a4-b203-4f56-804d-d39cda9c6374.png)
 
 # Features
 ## Home Page
@@ -24,7 +26,7 @@ The membership page lists the benefits of joining, gives membership prices and a
 
 ![image](https://user-images.githubusercontent.com/100580056/171223613-60f11dfb-b329-4283-b06a-70a2ad4f4bab.png)
 
-* Social media links allow users to follow club posts and other members posts in relation to the club via Twitter, Facebook and Instagram. Links open in separate webpages.
+* Social media links allow users to follow club posts, and other members posts in relation to the club via Twitter, Facebook and Instagram. Links open in separate webpages.
 
 ![image](https://user-images.githubusercontent.com/100580056/171223853-2ce98612-a458-41b4-9f29-21b9a68d853f.png)
 
@@ -33,7 +35,7 @@ The membership page lists the benefits of joining, gives membership prices and a
 
 ![image](https://user-images.githubusercontent.com/100580056/171224179-b9ca60f8-a009-4e7c-90a3-fe298f3ba1ca.png)
 
-* Below the photos are some novel volunteer vacancies requried for parents to help out with. There is a form to leave the volunteer name and email address for a club member to get in touch.
+* Below the photos are some novel volunteer vacancies requried for parents to help out with. There is a form to leave a name and email address for a n interested user. 
 
 ![image](https://user-images.githubusercontent.com/100580056/171224346-0e010dd3-e60c-4cb9-abd0-2cc8bfe95b81.png)
 
@@ -45,7 +47,7 @@ The membership page lists the benefits of joining, gives membership prices and a
 
 * The page lists the benefits of club membership and all the relevant affiliations with Football Association of Ireland (FAI) and Dublin District Schoolboys League (DDSL).
 
-* Membership table lists the various catergories of membership and associated price for the year.
+* Membership table lists the various categories of membership, and the associated cost for the year.
 
 ![image](https://user-images.githubusercontent.com/100580056/171224731-c923fc4c-8a71-43d6-ac43-ebb70d341cdc.png)
 
@@ -59,7 +61,7 @@ The membership page lists the benefits of joining, gives membership prices and a
 
 * Tested the external links to the various social media sites and payment websites, all open to the correct external website in a new tab.
 
-* Tested the website under the Lighthouse performance metric.
+* Tested the volunteer form, and requirement for an email address to be in the correct format for submission.
 
 # Vaildator Testing 
 
@@ -74,8 +76,12 @@ The membership page lists the benefits of joining, gives membership prices and a
 ![image](https://user-images.githubusercontent.com/100580056/171225819-210c1f31-1e62-4a15-9e1f-9f5a35b4a6bb.png)
 
 # Deployment
-The site was added to GitHub pages.
-Link to website - 
+* The site was deployed to Github Pages. The steps to deply were as follows:
+* From the Github repository Rocky-Rovers-FC, navigate to settings tab.
+* Next, on the left hand side menu under 'Code and automation' find and click the 'pages' tab.
+* Change the branch to Main and click Save in order for website to be deployed. Await a few mins and refresh for green published status. 
+
+Link to website - https://pthorkan.github.io/Rocky-Rovers-FC/
 
 # Credit
 ## Code and CSS Styling
