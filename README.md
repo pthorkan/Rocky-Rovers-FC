@@ -77,9 +77,9 @@ The membership page lists the benefits of joining, gives membership prices and a
 
 # Deployment
 * The site was deployed to Github Pages. The steps to deply were as follows:
-* From the Github repository Rocky-Rovers-FC, navigate to settings tab.
-* Next, on the left hand side menu under 'Code and automation' find and click the 'pages' tab.
-* Change the branch to Main and click Save in order for website to be deployed. Await a few mins and refresh for green published status. 
+    * From the Github repository Rocky-Rovers-FC, navigate to settings tab.
+    * Next, on the left hand side menu under 'Code and automation' find and click the 'pages' tab.
+    * Change the branch to Main and click Save in order for website to be deployed. Wait a few minutes and refresh for the green published status. 
 
 Link to website - https://pthorkan.github.io/Rocky-Rovers-FC/
 
@@ -95,9 +95,11 @@ Link to website - https://pthorkan.github.io/Rocky-Rovers-FC/
 
 # Conclusions
 * From a first project perspective, putting theory into practice proved both challenging and insightful. I would of course design this project completely different if I was to start again! However, through trial and error I hope to have increased my knowledge and understanding dramatically!
-* Moving forward, I need to improve on the site structure to help reduce workload for site responsiveness.
-I would also like to read up and improve on background colours and fonts.
-I also need to improve on committing to Github, ideally in a more frequent fashion rather than at the end of every day! 
+* Moving forward, I need to improve on the following:
+    * Website structure to help reduce workload for site responsiveness.
+    * More research into website colours and fonts.
+    * Work on commiting to Github more frequently!
+ 
 
 
 
