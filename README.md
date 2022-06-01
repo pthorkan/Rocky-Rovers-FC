@@ -91,7 +91,7 @@ Link to website - https://pthorkan.github.io/Rocky-Rovers-FC/
 * Background colouring insight taken from W3schools.com.
 
 ## Images
-* Verious images taken from the free image editors of Pexels and Unsplash.
+* Various images selected and downloaded from the free images section of both Pexels and Unsplash websites.
 
 # Conclusions
 * From a first project perspective, putting theory into practice proved both challenging and insightful. I would of course design this project completely different if I was to start again! However, through trial and error I hope to have increased my knowledge and understanding dramatically!
